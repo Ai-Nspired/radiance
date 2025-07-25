@@ -408,6 +408,8 @@ const lessonsData = [
     ],
   },
   {
+  // ... (rest of lessonsData before lesson6)
+  {
     id: 'lesson6',
     title: 'Energy Transformation',
     icon: <Zap className="w-5 h-5 mr-2" />,
@@ -429,17 +431,8 @@ const lessonsData = [
       {
         id: 'l6-ex1',
         buttonText: 'Breathing Sequence',
-        content: (
-          <>
-            <p className="mb-2 font-semibold">Magnetic Breathing (3x daily):</p>
-            <ol className="list-decimal list-inside space-y-1">
-              <li>Inhale 8s: "I claim this energy"</li>
-              <li>Hold 8s: "I transform this force"</li>
-              <li>Exhale 8s: "I radiate purpose"</li>
-              <li>Repeat for 5 cycles</li>
-            </ol>
-          </>
-        ),
+        // THIS IS THE CRUCIAL LINE THAT RENDERS THE TIMER COMPONENT
+        content: <MagneticBreathingTimer />,
       },
       {
         id: 'l6-ex2',
@@ -458,7 +451,8 @@ const lessonsData = [
       },
     ],
   },
-  {
+// ... (rest of lessonsData after lesson6)
+   
     id: 'lesson7',
     title: 'Timing and Transformation',
     icon: <Clock className="w-5 h-5 mr-2" />,

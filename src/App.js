@@ -2,10 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Lightbulb, Eye, Shield, Sparkles, Heart, Zap, Clock, TrendingUp, Target, Sun, Brain, Handshake, ChevronRight, ChevronDown, Play, Pause, RotateCcw } from 'lucide-react';
 
 // Import the new interactive components
-import MagneticBreathingTimer from './MagneticBreathingTimer'; // Already exists, but explicitly imported now
+import MagneticBreathingTimer from './MagneticBreathingTimer';
 import DotTrainingTimer from './DotTrainingTimer';
 import SolarPlexusBreathing from './SolarPlexusBreathing';
 import TensionChanneling from './TensionChanneling';
+import MentalTransmission from './MentalTransmission'; // NEW IMPORT
 
 
 // Data structure for all lessons and their content
@@ -162,7 +163,7 @@ const lessonsData = [
       },
       {
         id: 'l4-ex1',
-        buttonText: 'Desire Containment',
+        buttonText: 'Impulse Management',
         content: (
           <>
             <p className="mb-2 font-semibold">Impulse Management:</p>
@@ -264,7 +265,7 @@ const lessonsData = [
       {
         id: 'l6-ex1',
         buttonText: 'Breathing Sequence',
-        content: <MagneticBreathingTimer />, // Now points to the imported component
+        content: <MagneticBreathingTimer />,
       },
       {
         id: 'l6-ex2',
@@ -486,17 +487,7 @@ const lessonsData = [
       {
         id: 'l11-ex1',
         buttonText: 'Mental Transmission',
-        content: (
-          <>
-            <p className="mb-2 font-semibold">Mental Sending Protocol:</p>
-            <ol className="list-decimal list-inside space-y-1">
-              <li>Write intention in 5 words or less</li>
-              <li>Gaze at words while taking 7 deep breaths</li>
-              <li>Visualize words transforming to light</li>
-              <li>Project light beam toward target</li>
-            </ol>
-          </>
-        ),
+        content: <MentalTransmission />, // NEW COMPONENT USAGE
       },
       {
         id: 'l11-ex2',
@@ -842,4 +833,3 @@ const App = () => {
 };
 
 export default App;
-

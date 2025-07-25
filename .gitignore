@@ -1,0 +1,168 @@
+# See [https://help.github.com/articles/ignoring-files/](https://help.github.com/articles/ignoring-files/) for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.cache
+.env
+.next
+.vercel
+.idea
+.vscode
+Commit the new file.
+
+At this point, your GitHub repository should have a structure similar to this:
+
+your-repo-name/
+├── .gitignore
+├── package.json
+├── public/
+│   └── index.html
+└── src/
+    ├── App.js
+    └── index.js
+Step 2: Deploy with Cloudflare Pages
+Now that your code is on GitHub, Cloudflare Pages can take over.
+
+Log in to Cloudflare:
+
+Go to dash.cloudflare.com on your tablet/phone browser.
+
+Log in to your Cloudflare account. If you don't have one, you'll need to create a free account.
+
+Navigate to Pages:
+
+In the Cloudflare dashboard, look for "Pages" in the left-hand navigation menu. Click on it.
+
+Create a New Project:
+
+Click the "Create a project" button.
+
+Select "Connect to Git".
+
+Connect GitHub Account:
+
+Cloudflare will ask you to connect your GitHub account. Follow the prompts to authorize Cloudflare to access your repositories. You might need to grant it access to specific repositories or all of them.
+
+Select Your Repository:
+
+Once connected, you'll see a list of your GitHub repositories. Find the one you just created (e.g., inner-radiance-guide) and select it.
+
+Click "Begin setup."
+
+Configure Build Settings:
+This is where you tell Cloudflare Pages how to build your React app.
+
+Project name: (e.g., inner-radiance-guide) - this will be part of your default Cloudflare Pages URL.
+
+Production branch: main (or master, depending on your repo's default branch).
+
+Build settings:
+
+Framework preset: Select Create React App. Cloudflare Pages is smart and will pre-fill the commands.
+
+Build command: npm run build (this is the standard command for React apps).
+
+Build directory: build (this is where React puts the optimized files).
+
+Environment variables: You don't need any for this project.
+
+Deploy Site:
+
+Click the "Save and Deploy" button.
+
+Cloudflare Pages will now:
+
+Clone your GitHub repository.
+
+Install the dependencies listed in your package.json.
+
+Run the npm run build command.
+
+Deploy the resulting build folder to its global network.
+
+This process might take a few minutes. Once it's done, Cloudflare Pages will give you a unique URL (e.g., your-project-name.pages.dev) where your React app is live!
+
+Step 3: (Optional) Connect a Custom Domain
+If you have your own domain name (e.g., yourwebsite.com) managed by Cloudflare, you can easily connect it:
+
+In your Cloudflare Pages project, go to the "Custom domains" tab.
+
+Follow the instructions to add your domain. Cloudflare will automatically configure the necessary DNS records.
+
+Now you have a fully functional React application, hosted globally, all set up from your mobile device!
+
+Maintaining Your React App
+Making Changes: When you want to update your learning module, you'll go back to your GitHub repository on your tablet/phone. You can edit the App.js file (or any other file) directly in the GitHub web interface.
+
+Automatic Redeployments: Every time you commit and push changes to your main branch on GitHub, Cloudflare Pages will automatically detect the changes, rebuild your application, and deploy the new version. It's a continuous deployment pipeline!
+
+Dependencies: If you ever need to add new libraries (like another icon set or a new feature), you'd edit the package.json file on GitHub to add the new dependency. Cloudflare Pages will then install it during the next build.
+
+This setup is very powerful and allows you to manage your web application without needing a local development environment. Good luck with your "Unlocking Your Inner Radiance" guide!
+
+
+How do I make a folder in GitHub I've never done that before
+
+
+
+
+Show thinking
+You're right, it's not immediately obvious how to create a folder directly in the GitHub web interface because there isn't a dedicated "Create Folder" button.
+
+The trick is that you create a folder implicitly when you create a new file within it.
+
+Here's how you do it, step-by-step, using the GitHub web interface on your tablet or phone:
+
+How to Create a Folder (and a File Inside It) on GitHub
+Let's say you want to create a folder named my-new-folder and put a file named example.txt inside it.
+
+Navigate to your Repository:
+
+Open your web browser (on your tablet/phone) and go to github.com.
+
+Log in to your account.
+
+Go to the specific repository where you want to create the folder (e.g., inner-radiance-guide).
+
+Click "Add file" -> "Create new file":
+
+On your repository's main page, look for the "Add file" dropdown button.
+
+Click on it, and then select "Create new file" from the options.
+
+(On smaller screens, you might see a "+" icon at the top right, next to the repository name, which also leads to "Add file".)
+
+
+Sources
+
+
+
+
+
+Video
+
+Deep Research
+
+Canvas
+
+

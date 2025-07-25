@@ -558,4 +558,322 @@ const lessonsData = [
             <ul className="list-disc list-inside space-y-1">
               <li>Doubt creates energy leaks</li>
               <li>Certainty amplifies projection</li>
-              <li>Confidence creates self-reinforcing real
+              <li>Confidence creates self-reinforcing reality</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'l12-ex1',
+        buttonText: 'Doubt Suspension',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Doubt Containment Protocol:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>When doubt arises, visualize boxing it</li>
+              <li>Label "For later review"</li>
+              <li>Schedule 5-minute doubt session hours later</li>
+              <li>Most doubts disappear before review time</li>
+            </ol>
+          </>
+        ),
+      },
+      {
+        id: 'l12-ex2',
+        buttonText: 'Certainty Cultivation',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Evidence Journaling:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Daily record 3 magnetic successes</li>
+              <li>Note physical/emotional evidence</li>
+              <li>Review weekly to build certainty</li>
+              <li>Create "proof portfolio" of successes</li>
+            </ol>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 'lesson13',
+    title: 'Willpower Integration',
+    icon: <Brain className="w-5 h-5 mr-2" />,
+    sections: [
+      {
+        id: 'l13-concept',
+        buttonText: 'Will Development',
+        content: (
+          <>
+            <p className="mb-2">Willpower as directed magnetism:</p>
+            <ul className="list-disc list-inside space-y-1">
+              <li>Small daily victories build will muscle</li>
+              <li>Consistency &gt; intensity</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'l13-ex1',
+        buttonText: 'Ambidextrous Challenges',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Ambidextrous Challenges:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Simultaneous writing: dominant hand writes gratitude list, non-dominant draws circles</li>
+              <li>Daily 5-minute practice</li>
+              <li>Increase complexity weekly</li>
+            </ol>
+          </>
+        ),
+      },
+      {
+        id: 'l13-ex2',
+        buttonText: 'Applied Will Practice',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">The 10-Second Rule:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>When avoiding something, commit to 10 seconds</li>
+              <li>When desiring something, delay 10 seconds</li>
+              <li>Gradually increase to 30 seconds</li>
+              <li>Notice strengthened decision muscle</li>
+            </ol>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 'lesson14',
+    title: 'Active Influence Techniques',
+    icon: <Handshake className="w-5 h-5 mr-2" />,
+    sections: [
+      {
+        id: 'l14-concept',
+        buttonText: 'Conscious Projection',
+        content: (
+          <>
+            <p className="mb-2">Advanced influence methods:</p>
+            <ul className="list-disc list-inside space-y-1">
+              <li><strong className="text-amber-900">Energy Matching:</strong> Harmonizing before leading</li>
+              <li><strong className="text-amber-900">Silent Command:</strong> Projecting intention without words</li>
+              <li><strong className="text-amber-900">Field Anchoring:</strong> Maintaining center while others move</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'l14-ex1',
+        buttonText: 'Magnetic Induction',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">The Pull Technique:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>When someone speaks, lean slightly forward</li>
+              <li>Nod minimally at key points</li>
+              <li>After they finish, pause 3 seconds before responding</li>
+              <li>Note increased engagement</li>
+            </ol>
+          </>
+        ),
+      },
+      {
+        id: 'l14-ex2',
+        buttonText: 'Affirmation Broadcasting',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Silent Affirmation Practice:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Before meetings, visualize successful outcome</li>
+              <li>Mentally repeat "They respect my presence"</li>
+              <li>Project through solar plexus during handshakes</li>
+              <li>Maintain internal mantra throughout interaction</li>
+            </ol>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 'lesson15',
+    title: 'Sustained Magnetic Presence',
+    icon: <Sparkles className="w-5 h-5 mr-2" />,
+    sections: [
+      {
+        id: 'l15-concept',
+        buttonText: 'Lifetime Practice',
+        content: (
+          <>
+            <p className="mb-2">Magnetism maintenance:</p>
+            <ul className="list-disc list-inside space-y-1">
+              <li>Energy conservation becomes automatic</li>
+              <li>Willpower application becomes reflexive</li>
+              <li>Presence radiates without conscious effort</li>
+              <li>Continuous refinement through self-observation</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'l15-ex1',
+        buttonText: 'Daily Integration',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Morning Centering Routine:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>5-minutes solar plexus breathing</li>
+              <li>3-minute gaze stabilization</li>
+              <li>1-minute willpower affirmation</li>
+              <li>Set daily magnetism intention</li>
+            </ol>
+          </>
+        ),
+      },
+      {
+        id: 'l15-ex2',
+        buttonText: 'Weekly Energy Audit',
+        content: (
+          <>
+            <p className="mb-2 font-semibold">Weekly Energy Audit:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Review energy deposits/withdrawals</li>
+              <li>Identify 3 key magnetism successes</li>
+              <li>Note 1 area for improvement</li>
+              <li>Plan specific practice for coming week</li>
+            </ol>
+          </>
+        ),
+      },
+    ],
+  },
+];
+
+const App = () => {
+  // State to manage the currently active main lesson tab
+  const [activeLesson, setActiveLesson] = useState(lessonsData[0].id);
+  // State to manage the active inner tab for each lesson
+  const [activeInnerTab, setActiveInnerTab] = useState(() => {
+    const initialInnerTabs = {};
+    lessonsData.forEach(lesson => {
+      if (lesson.sections.length > 0) {
+        initialInnerTabs[lesson.id] = lesson.sections[0].id;
+      }
+    });
+    return initialInnerTabs;
+  });
+
+  // Function to handle clicking on a main lesson tab
+  const handleLessonClick = (lessonId) => {
+    setActiveLesson(lessonId);
+    // When a new main lesson is selected, reset its inner tab to the first one
+    const lesson = lessonsData.find(l => l.id === lessonId);
+    if (lesson && lesson.sections.length > 0) {
+      setActiveInnerTab(prev => ({
+        ...prev,
+        [lessonId]: lesson.sections[0].id
+      }));
+    }
+  };
+
+  // Function to handle clicking on an inner tab button
+  const handleInnerTabClick = (lessonId, sectionId) => {
+    setActiveInnerTab(prev => ({
+      ...prev,
+      [lessonId]: sectionId
+    }));
+  };
+
+  return (
+    <div className="min-h-screen bg-neutral-50 text-stone-800 font-serif p-4 sm:p-6 lg:p-8">
+      {/* Tailwind CSS CDN for styling */}
+      <script src="https://cdn.tailwindcss.com"></script>
+      {/* Google Fonts for Merriweather and Playfair Display */}
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:700&display=swap" rel="stylesheet" />
+
+      {/* Main Title */}
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-amber-900 border-b-4 border-amber-700 pb-3 mb-6 font-display text-center">
+        Unlocking Your Inner Radiance: A Guide to Personal Magnetism
+      </h1>
+
+      {/* Main Navigation Tabs */}
+      <nav className="flex flex-wrap justify-center border-b-3 border-amber-700 mb-4 bg-amber-100 rounded-lg shadow-md overflow-hidden">
+        {lessonsData.map((lesson) => (
+          <button
+            key={lesson.id}
+            onClick={() => handleLessonClick(lesson.id)}
+            className={`
+              flex items-center justify-center flex-grow sm:flex-grow-0
+              py-3 px-4 sm:px-6 text-sm sm:text-base font-medium
+              text-amber-900 transition-all duration-300 ease-in-out
+              border-r border-amber-300 last:border-r-0
+              hover:bg-amber-200 hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50
+              ${activeLesson === lesson.id ? 'bg-amber-700 text-white shadow-inner' : ''}
+            `}
+            style={{ fontFamily: 'Merriweather, serif' }}
+          >
+            {lesson.icon}
+            Lesson {lessonsData.indexOf(lesson) + 1}
+          </button>
+        ))}
+      </nav>
+
+      {/* Content Panes for Each Lesson */}
+      {lessonsData.map((lesson) => (
+        <section
+          key={lesson.id}
+          id={lesson.id}
+          className={`
+            content-pane bg-white p-6 rounded-xl shadow-lg
+            transition-all duration-500 ease-in-out transform
+            ${activeLesson === lesson.id ? 'block opacity-100 translate-y-0' : 'hidden opacity-0 -translate-y-2'}
+            mb-8
+          `}
+        >
+          {/* Lesson Title */}
+          <h2 className="text-2xl sm:text-3xl font-bold text-amber-900 mb-4 font-display">
+            {lesson.title}
+          </h2>
+
+          {/* Inner Tabs for Lesson Sections */}
+          <div className="inner-tabs flex flex-wrap justify-center sm:justify-start border-b-2 border-amber-300 mb-4">
+            {lesson.sections.map((section) => (
+              <button
+                key={section.id}
+                onClick={() => handleInnerTabClick(lesson.id, section.id)}
+                className={`
+                  flex-grow sm:flex-grow-0 py-2 px-4 sm:px-6 text-sm sm:text-base
+                  bg-amber-100 border-none cursor-pointer transition-all duration-300 ease-in-out
+                  hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50
+                  rounded-t-md
+                  ${activeInnerTab[lesson.id] === section.id ? 'bg-amber-700 text-white shadow-inner' : 'text-amber-900'}
+                `}
+                style={{ fontFamily: 'Merriweather, serif' }}
+              >
+                {section.buttonText}
+              </button>
+            ))}
+          </div>
+
+          {/* Inner Content Sections */}
+          {lesson.sections.map((section) => (
+            <div
+              key={section.id}
+              id={section.id}
+              className={`
+                inner-content mt-4 p-4 sm:p-6 bg-neutral-50 rounded-lg border border-amber-200
+                transition-all duration-300 ease-in-out
+                ${activeInnerTab[lesson.id] === section.id ? 'block opacity-100' : 'hidden opacity-0'}
+              `}
+            >
+              {section.content}
+            </div>
+          ))}
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default App;
+        

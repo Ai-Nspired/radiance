@@ -689,7 +689,7 @@ const lessonsData = [
               <li>Exhale with "HA" sound (8s)</li>
               <li>Repeat 5x before important events</li>
             </ol>
-          </ blushing-face>
+          </> // Removed the invalid </ blushing-face> tag
         ),
       },
       {

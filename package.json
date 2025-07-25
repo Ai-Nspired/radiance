@@ -26,6 +26,9 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.4",      <-- ADD THIS LINE
+    "postcss": "^8.4.38",         <-- ADD THIS LINE
+    "autoprefixer": "^10.4.19"    <-- ADD THIS LINE (ensure no comma after the last one)
   }
 }
